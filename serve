@@ -1,0 +1,29 @@
+[14:17:07] [INFO ] Loaded script server_scripts:mm/automatical assembler.js in 0.007 s
+[14:17:07] [INFO ] Loaded script server_scripts:mm/miner i.js in 0.004 s
+[14:17:07] [INFO ] Loaded script server_scripts:mm/t1 fusion machine.js in 0.002 s
+[14:17:07] [INFO ] Loaded script server_scripts:mm/vacuum freezer.js in 0.001 s
+[14:17:07] [INFO ] Hello, World! (You will see this line every time server resources reload)
+[14:17:07] [INFO ] Loaded script server_scripts:script.js in 0.003 s
+[14:17:07] [INFO ] Loaded 5/5 KubeJS server scripts in 0.026 s
+[14:17:07] [INFO ] Scripts loaded
+[14:17:07] [INFO ] Scanning recipes...
+[14:17:10] [INFO ] [blocks] Found 509 tags, added 20 objects, removed 0 objects
+[14:17:10] [INFO ] [blocks] Found 509 tags, added 40 objects, removed 0 objects
+[14:17:15] [WARN ] Failed to parse recipe 'pamhc2crops:torch_cattail[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:cookingoilitem'
+[14:17:15] [WARN ] Failed to parse recipe pamhc2crops:torch_cattail[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:cookingoilitem'
+[14:17:15] [WARN ] Failed to parse recipe 'pamhc2crops:bottle_x4_cattail_x2[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[14:17:15] [WARN ] Failed to parse recipe pamhc2crops:bottle_x4_cattail_x2[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[14:17:15] [WARN ] Failed to parse recipe 'pamhc2crops:cookingoil_x4_canola_x2[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:cookingoilitem'
+[14:17:15] [WARN ] Failed to parse recipe pamhc2crops:cookingoil_x4_canola_x2[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:cookingoilitem'
+[14:17:15] [INFO ] Found 7605 recipes and 0 failed recipes in 434.4 ms
+[14:17:15] [INFO ] Posted recipe events in 723.2 μs
+[14:17:15] [WARN ] Error parsing recipe immersivepetroleum:distillationtower/naphtha_cracking[immersivepetroleum:distillation]: {"type":"immersivepetroleum:distillation","byproducts":[{"item":"immersivepetroleum:petcoke_dust"}],"results":[{"fluid":"immersivepetroleum:ethylene","amount":6},{"fluid":"immersivepetroleum:propylene","amount":2},{"fluid":"immersivepetroleum:benzene","amount":2}],"input":{"tag":"forge:naphtha_cracked","amount":10},"time":1,"energy":1024}: java.lang.IllegalArgumentException: Unexpected json object.
+[14:17:15] [WARN ] Error parsing recipe immersivepetroleum:hydrotreater/lubricant_cracking[immersivepetroleum:hydrotreater]: {"type":"immersivepetroleum:hydrotreater","time":5,"energy":2560,"result":{"fluid":"immersivepetroleum:lubricant_cracked","amount":24},"input":{"tag":"forge:lubricant","amount":24},"secondary_input":{"tag":"minecraft:water","amount":5},"secondary_result":{"item":"immersivepetroleum:paraffin_wax"}}: java.lang.IllegalArgumentException: Unexpected json object.
+[14:17:15] [WARN ] Error parsing recipe immersivepetroleum:distillationtower/oil[immersivepetroleum:distillation]: {"type":"immersivepetroleum:distillation","byproducts":[{"item":"immersivepetroleum:bitumen"}],"results":[{"fluid":"immersivepetroleum:naphtha","amount":17},{"fluid":"immersivepetroleum:kerosene","amount":18},{"fluid":"immersivepetroleum:diesel_sulfur","amount":30},{"fluid":"immersivepetroleum:lubricant","amount":12}],"input":{"tag":"forge:crude_oil","amount":50},"time":1,"energy":1024}: java.lang.IllegalArgumentException: Unexpected json object.
+[14:17:15] [WARN ] Error parsing recipe immersivepetroleum:distillationtower/kerosene[immersivepetroleum:distillation]: {"type":"immersivepetroleum:distillation","byproducts":[{"item":"immersivepetroleum:petcoke_dust"}],"results":[{"fluid":"immersivepetroleum:naphtha","amount":2},{"fluid":"immersivepetroleum:gasoline_additives","amount":3},{"fluid":"immersivepetroleum:diesel_sulfur","amount":5}],"input":{"tag":"forge:kerosene","amount":10},"time":1,"energy":1024}: java.lang.IllegalArgumentException: Unexpected json object.
+[14:17:15] [WARN ] Error parsing recipe immersivepetroleum:hydrotreater/sulfur_recovery[immersivepetroleum:hydrotreater]: {"type":"immersivepetroleum:hydrotreater","time":1,"energy":80,"result":{"fluid":"immersivepetroleum:diesel","amount":10},"input":{"tag":"forge:diesel_sulfur","amount":10},"secondary_input":{"tag":"minecraft:water","amount":5},"secondary_result":{"item":"immersiveengineering:dust_sulfur"}}: java.lang.IllegalArgumentException: Unexpected json object.
+[14:17:15] [WARN ] Error parsing recipe immersivepetroleum:distillationtower/lubricant_cracking[immersivepetroleum:distillation]: {"type":"immersivepetroleum:distillation","byproducts":[{"item":"immersivepetroleum:petcoke_dust"}],"results":[{"fluid":"immersivepetroleum:kerosene","amount":6},{"fluid":"immersivepetroleum:diesel_sulfur","amount":10}],"input":{"tag":"forge:lubricant_cracked","amount":12},"time":1,"energy":1024}: java.lang.IllegalArgumentException: Unexpected json object.
+[14:17:15] [INFO ] Modified & removed recipes in 174.9 ms
+[14:17:15] [INFO ] Added recipes in 753.9 μs
+[14:17:15] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 6 failed recipes and 0 fall-backed recipes
+[14:17:18] [ERR  ] Error occurred while handling event 'mm.recipes': Wrapped java.lang.NullPointerException: Cannot invoke "io.ticticboom.mods.mm.ports.base.MMPortTypeEntry.parseIngredient(com.google.gson.JsonObject)" because "port" is null (server_scripts:mm/miner i.js#61)
